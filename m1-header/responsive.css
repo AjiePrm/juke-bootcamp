@@ -1,0 +1,94 @@
+/* responsive header */
+
+/* Untuk Tablet */
+@media only screen and (max-width: 1000px){
+  .header-right a{
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .link:hover {
+    color: #000000 ;
+    padding-top: 30px;
+    padding: 0 20px;
+    opacity: 0.3px;
+    font-size: 14px;
+    text-decoration: underline #da4525;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+  .container-header span{
+    font-size: 32px;
+  }
+
+  .btn-cart img{
+    width: auto;
+    padding-left: 20px;
+  }
+
+  .header-right{
+    margin-right: 10px;
+  }
+
+  .link{
+    line-height: 45px;
+  }
+}
+  /* Untuk Smartphone */
+  @media only screen and (max-width: 670px) {
+    .header-right{
+      display:none;
+    }
+    .menu-icon{
+      color: #ad5425;
+      font-size: 32px;
+      line-height: 30px;
+    }
+
+  }
+
+/* ------------------------------------------------------ */
+
+
+/* bagian main */
+.section{
+  display: flex;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main{
+  width: 1216px;
+  height: 781px;
+  background: #F5B614;
+  border-radius: 20px;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.opening h1{
+ margin: auto 70px;
+ position: absolute;
+ font-size: 48px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+}
+
+.image{
+  position: absolute;
+  right: 150px; 
+  top: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  border-radius: 10px;
+}
+
+/* ------------------------------------------------------ */
